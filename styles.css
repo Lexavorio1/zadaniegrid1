@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    max-width: 2000px;
+}
+.menu {
+    display: flex;
+    max-height: 1264px;
+    justify-content: space-evenly;
+}
+.menu__table1 {
+    display: grid;
+    grid-template-columns: repeat(2, 376px);
+    grid-template-rows: repeat(2, 335px);
+    gap: 32px 10px;
+    margin: 0;
+    padding: 0;
+}
+.menu__table2 {
+    display: grid;
+    grid-template-columns: repeat(2, 376px);
+    grid-template-rows: repeat(2, 335px);
+    margin: 0;
+    padding: 0;
+}
+.menu__img {
+    border-radius: 25% 10%;
+}
